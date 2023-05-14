@@ -50,7 +50,7 @@ body {
 }
 
 .home-background {
-    background-image: url(/images/haukai-home.jpg);
+    background-image: url(..../images/haukai-home.jpg);
     background-position: center center;
 }
 
@@ -60,38 +60,38 @@ body {
 }
 
 .background-aboutheader {
-    background-image: url(/images/haukai-headerabout.jpg);
+    background-image: url(../images/haukai-headerabout.jpg);
 }
 
 .background-reservationheader {
-    background-image: url(/images/haukai-reservationheader.jpg);
+    background-image: url(../images/haukai-reservationheader.jpg);
 }
 
 .background-contactheader {
-    background-image: url(/images/haukai-headercontact.jpg);
+    background-image: url(../images/haukai-headercontact.jpg);
 }
 
 .background-hoursheader {
-    background-image: url(/images/haukai-food-menuheader.jpg);
+    background-image: url(../images/haukai-food-menuheader.jpg);
 }
 
 .background-menu {
-    background-image: url(/images/haukai-menu.jpg);
+    background-image: url(../images/haukai-menu.jpg);
     height: 200px;
 }
 
 .background-about {
-    background-image: url(/images/haukai-about.jpg);
+    background-image: url(../images/haukai-about.jpg);
     height: 200px;
 }
 
 .background-reservation {
-    background-image: url(/images/haukai-reservation.jpg);
+    background-image: url(../images/haukai-reservation.jpg);
     height: 200px;
 }
 
 .background-contact {
-    background-image: url(/images/haukai-contact.jpg);
+    background-image: url(../images/haukai-contact.jpg);
     height: 200px;
 }
 
