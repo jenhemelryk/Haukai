@@ -151,15 +151,16 @@ body {
  }
   
   .topnav a {
-    color:#6c8689; /* #87A8AB*/
+    color:#5f7678;
     padding: 14px 16px;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     vertical-align: middle;
 }
 
   .topnav .logo {
-    color: #3F575A
+    color: #3F575A;
+    font-weight: 400;
 }
   
   .topnav a:hover {
@@ -190,7 +191,7 @@ h2 {
 }
 
 h3 {
-    color: #87A8AB;
+    color: #5f7678;
     font-weight: 400;
     font-size: 1.3rem
 }
