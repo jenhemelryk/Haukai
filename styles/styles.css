@@ -50,8 +50,9 @@ body {
 }
 
 .home-background {
-    background-image: url(../images/haukai-home.jpg);
+    background-image: url(../images/haukai-homebackground.jpg);
     background-position: center center;
+    background-size: cover;
 }
 
 .background-menuheader {
@@ -254,8 +255,12 @@ h4 {
     background-color:rgba(135, 168, 171, 0.7);
     width: 250px;
     height: 250px;
+}
+
+.button-home a {
     font-size: 1.8rem;
     color: white;
+    font-weight: 500;
 }
 
 .button-home:hover {
@@ -353,6 +358,10 @@ footer a:hover {
         height: 350px;
         background-position: center bottom;
     }
+    .home-heading {
+        font-size: 1.8rem;
+    }
+
 }
 
 
