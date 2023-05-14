@@ -14,6 +14,10 @@
     margin: 0 5%;
 }
 
+.content-padding {
+    padding: 50px;
+}
+
 
 /* MARGIN TO OVERLAY IMAGE */
 
@@ -81,7 +85,7 @@ body {
     background-color: white;
     text-align: center;
     overflow: hidden;
-  }
+ }
   
   .topnav a {
     color: #87A8AB;
@@ -89,20 +93,20 @@ body {
     text-decoration: none;
     font-weight: 400;
     vertical-align: middle;
-  }
+}
 
   .topnav .logo {
     color: #3F575A
-  }
+}
   
   .topnav a:hover {
     color: #786247;
     font-weight:400;
-  }
+}
   
   .topnav .icon {
     display: none;
-  } 
+} 
 
 
 /* HEADINGS */
@@ -144,7 +148,7 @@ h4 {
     padding: 50px 25px 0 25px;
 }
 
-/* BUTTON LINKS */
+/* BUTTON IMAGE LINKS */
 
 .button {
     padding: 20px;
@@ -164,6 +168,12 @@ h4 {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+}
+
+
+/* UNDERLINE LINKS */
+.underline {
+    text-decoration: underline;
 }
 
 
@@ -263,8 +273,30 @@ footer a:hover {
     footer .box {
         text-align: center;
     }
+    .content-padding {
+        padding: 25px;
+    }  
 
 }
+
+
+/* RESPONSIVE MAP */
+
+.map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:500px;
+}
+
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ 
 
    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 860px) {
