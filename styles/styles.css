@@ -50,12 +50,12 @@ body {
 }
 
 .home-background {
-    background-image: url(..../images/haukai-home.jpg);
+    background-image: url(../images/haukai-home.jpg);
     background-position: center center;
 }
 
 .background-menuheader {
-    background-image: url(/images/haukai-headermenu.jpg);
+    background-image: url(../images/haukai-headermenu.jpg);
     background-position: bottom;
 }
 
