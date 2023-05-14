@@ -8,4 +8,3 @@ function myFunction() {
     }
   } 
 
-  /*topnav content nav-flex*/

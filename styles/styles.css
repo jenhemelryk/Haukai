@@ -18,6 +18,10 @@
     padding: 50px;
 }
 
+.padding-top {
+    padding-top:50px;
+}
+
 
 /* MARGIN TO OVERLAY IMAGE */
 
@@ -37,6 +41,14 @@ body {
     background-color: white;
 }
 
+.background-header {
+    height: 350px;
+    background-position: bottom left;
+}
+
+.home-background {
+    background-position: center center;
+}
 
 /* FLEX STYLING */
 
@@ -73,6 +85,10 @@ body {
     flex: 50%;
 }
 
+.flex66 {
+    flex: 66%;
+}
+
 .flex75 {
     flex: 75%;
     padding: 15px;
@@ -107,6 +123,30 @@ body {
   .topnav .icon {
     display: none;
 } 
+
+
+/* IMAGES */
+
+.background-menu {
+    background-image: url(/images/haukai-menu.jpg);
+    height: 200px;
+}
+
+.background-about {
+    background-image: url(/images/haukai-about.jpg);
+    height: 200px;
+}
+
+.background-reservation {
+    background-image: url(/images/haukai-reservation.jpg);
+    height: 200px;
+}
+
+.background-contact {
+    background-image: url(/images/haukai-contact.jpg);
+    height: 200px;
+}
+
 
 
 /* HEADINGS */
@@ -148,6 +188,10 @@ h4 {
     padding: 50px 25px 0 25px;
 }
 
+.left {
+    text-align: left;
+}
+
 /* BUTTON IMAGE LINKS */
 
 .button {
@@ -168,6 +212,10 @@ h4 {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
+}
+
+.button-height {
+    height: 200px;
 }
 
 
@@ -276,7 +324,13 @@ footer a:hover {
     .content-padding {
         padding: 25px;
     }  
-
+    h1 {
+        font-size: 2.5rem;
+    }
+    .background-header {
+        height: 350px;
+        background-position: center bottom;
+    }
 }
 
 
