@@ -73,7 +73,7 @@ body {
 }
 
 .background-hoursheader {
-    background-image: url(../images/haukai-food-menuheader.jpg);
+    background-image: url(../images/haukai-staffheader.jpg);
 }
 
 .background-menu {
@@ -167,7 +167,12 @@ body {
     color: #786247;
     font-weight:400;
 }
-  
+
+.topnav a.active {
+    color: #786247;
+    font-weight:600;
+}
+
   .topnav .icon {
     display: none;
 } 
@@ -216,6 +221,7 @@ h4 {
     text-align: left;
 }
 
+
 /* BUTTON IMAGE LINKS */
 
 .button {
@@ -243,7 +249,7 @@ h4 {
 }
 
 .button a {
-    padding: 25px;
+    padding: 15px;
 }
 
 
@@ -283,6 +289,27 @@ h4 {
 
 .menu-heading {
     align-items: center;
+}
+
+.menu-img {
+    width: 100%
+}
+
+
+/* ABOUT PAGE STYLING */
+
+.about-link {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #786247;
+    width: 300px;
+    text-align:center;
+    color:#786247;
+}
+
+.about-link:hover {
+    background-color: #786247;
+    color: white;
 }
 
 
@@ -366,6 +393,12 @@ footer a:hover {
     }
     .home-heading {
         font-size: 1.8rem;
+    }
+    .img-mobile {
+        display: none;
+    }
+    .about-link {
+        width: 200px;
     }
 
 }
